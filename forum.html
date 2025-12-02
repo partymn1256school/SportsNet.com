@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SportsNet || Forums</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="stylesforsports.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet"
+</head>
+<body>
+
+  <header>
+    <h1>Forums</h1>
+  </header>
+<!--Navigation Bar-->
+  <div class="Navigation">
+  <nav class="sitenavigation">
+    <a href="index.html">Home</a>
+    <a href="news.html">News</a>
+    <a href="forum.html">Forums</a>
+    <a href="streams.html">Streams</a>
+    <a href="schedule.html">Schedule</a>
+    </div>
+  </nav>
+<!-- JavaScript "Comment Section" PLACEHOLDER-->
+ <div id="comment-section">
+  <script src="comments.js"></script>
+
+  <div class="h3text">
+    <p>Welcome to the Forum. Follow the rules or you will be banned!</p>
+  </div>
+
+  <form action="commentsposted.html" method="post" id="comment-form">
+    <p><label for="name">Name:</label></p>
+    <input type="text" id="name" name="name" required>
+
+    <p><label for="comment">Comment:</label></p>
+    <textarea id="comment" name="comment" rows="4" required></textarea>
+
+    <br><br>
+    <input type="submit" value="Post Comment">
+  </form>
+
+
+  <p>Comments</p>
+  <div id="comments-display">
+    <!-- Comments will be loaded here by JavaScript: Update, I have decided against it to dedicate time elsewhere. -->
+  </div>
+</div>
+<footer>
+     <p>100 Morrissey Boulevard.</p>
+      <p>Dorchester, MA 02125</p>
+      <p>1(800)-425-7622</p>
+     <div class="row">
+      <p>CONTACT US:</p>
+
+      <a href="https://x.com/X6Garbage"><p>Twitter</p></a>
+      <img src="twitter.png" style="width:60px;height:50px;">
+      <a href="https://www.instagram.com/sportsnetumb/"><p>Instagram</p></a>
+      <img src="instagram.png" style="width:50px;height:50px;">
+      <a href="https://www.facebook.com/profile.php?id=100041231101114"><p>Facebook</p></a>
+      <img src="facebook.png" style="width:50px;height:50px;">
+      </div>
+   </footer>
+</body>
+</html>
